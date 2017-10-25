@@ -55,6 +55,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/proofread-core.svg)](https://greenkeeper.io/)
+
 ```sh
 $ npm install proofread-core
 # OR
