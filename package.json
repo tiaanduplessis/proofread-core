@@ -1,0 +1,33 @@
+{
+    "name": "proofread-core",
+    "version": "1.0.0",
+    "description": "English prose and spellchecker build on nodehun &amp; write-good",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/tiaanduplessis/proofread-core",
+        "type": "git"
+    },
+    "homepage": "https://github.com/tiaanduplessis/proofread-core",
+    "bugs": "https://github.com/tiaanduplessis/proofread-core",
+    "main": "index.js",
+
+    "files": ["index.js"],
+    "scripts": {
+        "test": "jest",
+        "format": "prettier-standard **/*.js",
+        "start": "npm run test",
+        "precommit": "npm test",
+        "pretest": "npm run format"
+    },
+    "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+    "dependencies": {
+        "nodehun": "^2.0.11",
+        "nodehun-sentences": "^1.0.4",
+        "write-good": "^0.11.3"
+    },
+    "devDependencies": {
+        "jest": "^21.0.2",
+        "husky": "^0.14.3",
+        "prettier-standard": "^6.0.0"
+    }
+}
