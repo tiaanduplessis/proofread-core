@@ -81,7 +81,7 @@ proofRead(`
 //   typos: [ { word: 'Cuz', suggestions: [Array], positions: [Array] } ] }
 ```
 
-Optionally specify the dictionary (see [dictionaries][dictionaries] directory for available english dictionaries) to use and any of the available [`write-good`](https://github.com/btford/write-good#checks) options.
+Optionally specify the dictionary (see [dictionaries](dictionaries) directory for available english dictionaries) to use and any of the available [`write-good`](https://github.com/btford/write-good#checks) options.
 
 ```js
 proofRead(`
