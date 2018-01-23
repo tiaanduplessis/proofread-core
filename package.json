@@ -26,7 +26,7 @@
         "write-good": "^0.11.3"
     },
     "devDependencies": {
-        "jest": "^21.0.2",
+        "jest": "^22.0.0",
         "husky": "^0.14.3",
         "prettier-standard": "^8.0.0"
     }
