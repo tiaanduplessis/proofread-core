@@ -22,8 +22,8 @@
     "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
     "dependencies": {
         "nodehun": "^2.0.11",
-        "nodehun-sentences": "^1.0.4",
         "write-good": "^0.13.1"
+        "nodehun-sentences": "^2.0.0"
     },
     "devDependencies": {
         "jest": "^22.0.0",
